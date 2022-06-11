@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="pictures/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="pictures/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="pictures/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Login/Register Form</title>
+  <link rel="stylesheet" href="loginsignup.css">
+</head>
+
+<body>
+  <!--====================================== Login-form =======================================-->
+  <div class="container">
+    <div class="nav-wrapper">
+      <!-- Left side navs -->
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase active" href="index.html">home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase active" href="about us.html">about us/what we do</a>
+        </div>
+        <!-- <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="whatwedo.html">what we do</a>
+        </div> -->
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="how it works.html">how it works</a>
+        </div>
+      </div>
+      <!-- Center navs i.e. logo  -->
+      <div class="center">
+        <div class="logo">
+          <a href="index.html"><img src="pictures/fundourcause.png" width="150" height="150"></a>
+        </div>
+      </div>
+      <!-- Right side navs -->
+      <div class="right-side">
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="#">for charities</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="#">for individuals</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="loginREGISTER1.html">login/signup</a>
+        </div>
+        <!-- <div class="nav-link-wrapper">
+          <a class="text-uppercase" href="loginREGISTER1.html">sign up</a>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+  <div id="login-form" class="login-page">
+    <div class="form-box">
+      <div class="button-box">
+        <div id="btn"></div>
+        <button type='button' onclick="login()" class="toggle-btn">Login</button>
+        <button type="button" onclick="register()" class="toggle-btn">Register</button>
+      </div>
+      <form id="login" class="input-group-login">
+        <input type="email" class="input-feild" placeholder="Email ID" required>
+        <input type="password" class="input-feild" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span class="form-text">Remember Password</span>
+        <button type="submit" class="submit-btn"><b>Log in</b></button>
+      </form>
+      <form id="register" class="input-group-register">
+        <input type="text" class="input-feild" placeholder="First Name" required>
+        <input type="text" class="input-feild" placeholder="Last Name" required>
+        <input type="email" class="input-feild" placeholder="Email ID" required>
+        <input type="password" class="input-feild" placeholder="Enter Password" required>
+        <input type="password" class="input-feild" placeholder="Confirm Password" required>
+        <input type="checkbox" class="check-box">
+        <span class="form-text">I agree to all terms and conditions</span>
+        <button type="submit" class="submit-btn"><b>Sign up</b></button>
+      </form>
+    </div>
+  </div>
+  <script>
+    var x = document.getElementById('login');
+    var y = document.getElementById('register');
+    var z = document.getElementById('btn');
+    function register() {
+      x.style.left = "-400px";
+      y.style.left = "50px";
+      z.style.left = "110px";
+
+    }
+    function login() {
+      x.style.left = "50px";
+      y.style.left = "450px";
+      z.style.left = "0px";
+    }
+  </script>
+  <script>
+    var modal = document.getElementById('login-form');
+    window.onclick = function (event) {
+      if (event.target == modal1) {
+        modal.style.display = none;
+      }
+    }
+
+    
+
+  </script>
+</body>
+
+</html>
