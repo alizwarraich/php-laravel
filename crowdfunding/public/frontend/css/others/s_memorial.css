@@ -1,0 +1,317 @@
+.fund-options {
+    margin-top: 30px;
+}
+
+.section6 {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.categories {
+    color: rgb(37, 180, 37);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    background-color: #F8F8F8;
+}
+
+.left-footer,
+.right-footer {
+    display: flex;
+}
+
+.footer>.left-footer>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.footer>.right-footer>div {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+/* .nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+    background-color: rgb(175, 187, 175);
+} */
+.nav-link-wrapper:hover {
+    border-bottom: 2px solid black;
+    background-color: #7DB569;
+}
+
+.nav-link-wrapper a:hover {
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+/* .container {
+    display: grid;
+} */
+
+/* Nav styles */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    margin-bottom: -40px;
+}
+
+.left-side,
+.center,
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper>.left-side>div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-wrapper>.right-side>div {
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.nav-wrapper>.center>div {
+    margin-top: -50px;
+    /* margin-right: -100px; */
+}
+
+.fund-options {
+    margin-top: 80px;
+    padding: 30px 150px 30px 150px;
+    background-color: #F8F8F8;
+}
+
+.left-footer a {
+    color: #5a5959;
+    font-size: 14px;
+}
+
+div>a>ion-icon {
+    width: 30px;
+    height: 30px;
+    color: #0E2D25;
+}
+
+div>a>ion-icon:hover {
+    color: #00A671;
+    transition: 0.2s color;
+}
+
+.list-style {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.list-style>a>li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 7px;
+    border-radius: 5px;
+    margin-left: -6px;
+    list-style: none;
+}
+
+.list-style>a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-style>a>li:hover {
+    background-color: #fff;
+}
+
+.text>a {
+    text-decoration: none;
+}
+
+.line {
+    margin-top: -20px;
+    width: 100%;
+    color: #00A671;
+}
+
+.sec1 {
+    margin: 50px 0 150px 0;
+}
+
+
+
+
+
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+}
+
+.text-center .btn{
+    margin: 15px;
+}
+
+div.heading1 p{
+    opacity: 1;
+    color: rgb(103, 99, 99);
+    font-size: 50px;
+    font-weight: 600;
+    margin: -10px;
+}
+
+.section1 {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.section2{
+    background-color: rgb(237, 237, 237);
+    margin-top: 10px;
+    padding: 50px;
+}
+.section3 {
+    /* background-color: rgb(208, 232, 241); */
+    margin-top: 70px;
+    /*padding: 100px; */
+}
+.section4 {
+    margin-top: 100px;
+    background-color: rgb(237, 237, 237);
+}
+#p41{
+    width: 50%;
+    text-align: center;
+    opacity: 0.9;
+}
+#p42{
+    margin: 10px;
+}
+#p43{
+    opacity: 0.7;
+}
+#p44{
+    width: 50%;
+    text-align: center;
+    opacity: 0.9;
+    font-size: 35px; 
+}
+#p52{
+    text-align: center;
+    opacity: 0.7;
+    width: 80%;
+}
+h4{
+    color: rgb(37, 180, 37);
+}
+h5{
+    padding: 40px;
+    color: grey;
+}
+
+.c4{
+    align-items: center;
+}
+
+.c41{
+    padding: 0px;
+    color: grey;
+    font-size: medium;
+}
+
+.fund-options{
+    margin-top: 10px;
+    border-top: 1px solid black;
+    margin-top: 50px;
+}
+.btn{
+    width: 25%;
+    align-content: center;
+}
+.btn1{
+    margin-left: 10px;
+}
+.c1 {
+    font-size: 2.5em;
+}
+
+.c2 {
+    margin-top: 4%;
+}
+
+.c3 {
+    margin-right: -50px;
+}
+
+.c21{
+    width: 400px;
+}
+
+.c22{
+    width: 500px;
+}
+
+div>ul>li {
+    list-style: none;
+}
+
+.green {
+    color: #037362;
+}
+
+
+.fa {
+    padding: 3px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  /* Email */
+  .fa-envelope {
+    background: #03233a;
+    color: white;
+  }
